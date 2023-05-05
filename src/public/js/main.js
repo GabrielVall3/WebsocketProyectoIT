@@ -1,1 +1,3 @@
-const socket = io ();
+io.on("hello", (arg) => {
+    console.log(arg); // world
+});
